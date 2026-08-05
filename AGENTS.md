@@ -57,6 +57,9 @@ to the visitor's locale. See `adrs/0001-multilingual.md` and `cronologia/core#9`
 - Localization is **data-level** (a key-based walk in `build.js`), so every
   renderer — chronology, genealogy, charts, glossary links — is covered.
 - **Never translated:** reference titles/publishers, proper names, URLs, dates, ids.
+  But `dateNote` — prose ABOUT a date, which sources disagree and what the date
+  rests on — IS translated and, as of core#73, IS rendered beneath its event.
+  Every one of them is reader-facing and needs an es and a pt entry.
 - **Subtrees where the general rule misfires get their own allowlist.**
   `TRANSLATABLE_KEYS` decides the dataset at large; `SUBTREE_TRANSLATABLE` in
   `build.js` maps a subtree's key to the keys that are prose *inside* it, and
@@ -132,7 +135,8 @@ byte-identical to a build without the feature. Shapes are shown in
   above `about`. `stages[]` are DECLARED IN DATA, not hardcoded: each rung has a
   `label`, optional `when`/`who`/`outcome`, and a `status` from the closed enum
   in `STATUS_GLYPH` (`favourable`, `negative`, `inconclusive`,
-  `reported-undocumented`, `not-found`, `not-reached`, `pending`). Four
+  `reported-undocumented`, `not-found`, `not-reached`, `pending`, `adjacent`).
+  Four
   properties the renderer's header comment fixes and any redesign must keep: no
   overall verdict badge for the case; "no ruling found" (`not-found`), "did not
   go there" (`not-reached`) and "ruled against" (`negative`) stay distinct;
@@ -143,7 +147,10 @@ byte-identical to a build without the feature. Shapes are shown in
   localized build. Here the ladder records that the 1531 events predate the
   apparition-investigation procedure entirely, and that the Roman acts of 1754,
   1895, 1990 and 2002 concern the cult and the person of Juan Diego, not the
-  historicity of the apparitions.
+  historicity of the apparitions. Those two rungs are `adjacent` (core#68):
+  the status exists precisely so that liturgical honours and a canonization
+  stop rendering as a green "concluded in favour" beside a case on which no
+  verdict has ever been issued.
 
 - **`meta.threads`** — the per-repo lane taxonomy (core#23) and, once declared,
   the **swimlanes** figure (`renderSwimlanes`): one row per lane, one column per
