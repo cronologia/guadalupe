@@ -8,6 +8,83 @@
     "lastUpdated": "2026-08-05",
     "dataQualityNote": "Work-in-progress dataset compiled from public sources (see references). The apparitions are recorded here as REPORTED events: the dataset records who reported what and when, and what the Church ruled and when, citing the ruling document; it never asserts the supernatural claim as fact. The historicity of Juan Diego and of the apparition account is a recorded disagreement in this dataset, not a resolved one — named scholars on both sides are cited. Dates not yet verified against a primary source are flagged with a ? mark. Corrections against primary sources are welcome."
   },
+  "approvalLadder": {
+    "navLabel": "Church acts",
+    "note": "The apparitions reported at Tepeyac in December 1531 predate the Church's apparition-investigation procedure entirely. There was no local inquiry, diocesan verdict and Roman referral to run, and none was run: the modern procedure is a twentieth-century instrument. So the rungs below are not steps of a three-stage review that this case passed. They are the acts actually on record — an archbishop's inquiry into the devotion in 1556, a diocesan evidence-gathering exercise in 1666, and Roman acts concerning the cult and the person of Juan Diego — each cited and described for what it was. No ruling on whether the apparitions of 1531 occurred has ever been issued, and this chart does not supply one; the historicity disagreement recorded elsewhere on this page stands unresolved here.",
+    "caption": "One rung per act, in the order the acts happened. Each rung names what was actually being judged. None of them is a finding on whether an apparition took place at Tepeyac in 1531.",
+    "stages": [
+      {
+        "label": "Contemporary episcopal inquiry into the reported apparitions",
+        "when": "1531–1550s",
+        "who": "Juan de Zumárraga, first bishop of Mexico, and his immediate successors",
+        "status": "not-found",
+        "noDocument": "No sixteenth-century record of any episcopal investigation into the reported apparitions has been located. Searched: the sources this chronology cites for the period — Poole's source-by-source survey (1995) and O'Gorman's study of the 1556 controversy (1986) — which report that Zumárraga's surviving writings mention neither Juan Diego nor the apparitions, and that the earliest substantial documentation of the cult, in 1556, mentions neither either. This is a statement about the surviving record, not a finding that nothing occurred.",
+        "sources": [
+          "poole-1995",
+          "ogorman-1986",
+          "britannica-guadalupe"
+        ]
+      },
+      {
+        "label": "Archbishop's inquiry into the devotion at Tepeyac",
+        "when": "1556",
+        "who": "Alonso de Montúfar, second archbishop of Mexico",
+        "status": "inconclusive",
+        "outcome": "The object of this inquiry was the devotion and the origin of the image, not an apparition claim. Montúfar opened it (the Información de 1556) after the Franciscan provincial Francisco de Bustamante preached against the Tepeyac cult and reportedly said the image had been painted by an Indian. The record mentions neither Juan Diego nor the apparitions; no verdict on the image or the cult is known to have been issued, and the matter subsided. Skeptical scholars following O'Gorman and Poole read 1555–1556 as the real horizon of the devotion; defenders read the same controversy as evidence the cult was already strong twenty-five years after the reported events.",
+        "sources": [
+          "ogorman-1986",
+          "poole-1995",
+          "mendez-acosta-2003"
+        ]
+      },
+      {
+        "label": "Diocesan evidence-gathering: Informaciones Jurídicas",
+        "when": "1666",
+        "who": "The archdiocese of Mexico, in Mexico City and Cuautitlán",
+        "status": "inconclusive",
+        "outcome": "A formal ecclesiastical inquiry held 18 February – 22 March 1666 collected sworn testimony, including from elderly indigenous witnesses of Cuautitlán who affirmed knowledge of Juan Diego through their parents' generation. It was evidence-gathering in support of a petition to Rome for a proper Mass and Office, conducted 135 years after the reported events; it issued no judgment on the apparitions. Defenders present it as juridical evidence of a continuous tradition; skeptics note the distance in time between the testimony and what it reports.",
+        "sources": [
+          "lor-2002",
+          "poole-1995"
+        ]
+      },
+      {
+        "label": "Rome — liturgical and patronal honours for an established cult",
+        "when": "1754 and 1895",
+        "who": "Benedict XIV; Leo XIII",
+        "status": "favourable",
+        "outcome": "What was granted here was liturgy and honour, not authentication. In 1754 Benedict XIV approved the Guadalupan patronage of New Spain and granted a proper Mass and Office for the feast of 12 December; in 1895 the image was solemnly crowned at Tepeyac by Archbishop Próspero María Alarcón under pontifical authorization from Leo XIII. Both acts regulate how the Church may celebrate a devotion that already existed. Neither examines, and neither decides, whether an apparition occurred in 1531.",
+        "sources": [
+          "britannica-guadalupe",
+          "traslosheros-2002"
+        ]
+      },
+      {
+        "label": "Rome — the sanctity of Juan Diego, a judgment about a person",
+        "when": "1990 and 2002",
+        "who": "John Paul II, on a cause prepared through the Congregation for the Causes of Saints",
+        "status": "favourable",
+        "outcome": "Juan Diego was beatified on 6 May 1990 and canonized on 31 July 2002. A beatification and a canonization judge a person — his sanctity and his cult — and not the events reported in 1531. The cause's own historical commission published its case for his historical existence in 1999; Stafford Poole and others contested it, letters from clergy questioning his existence were leaked to the press months before the ceremony, and the canonization became part of the historicity dispute rather than an end to it. This chronology records the ruling and the dispute, and adjudicates neither.",
+        "sources": [
+          "jp2-hom-1990",
+          "jp2-hom-2002",
+          "vatican-bio-2002",
+          "poole-2005",
+          "eluniversal-2002",
+          "lor-2002"
+        ]
+      },
+      {
+        "label": "Rome — a ruling on the supernatural character of the 1531 apparitions",
+        "when": "not on record",
+        "status": "not-reached",
+        "noDocument": "No act of the Holy See declaring the apparitions of 1531 supernatural has been located, and the case never entered such a process. The procedure for judging reported apparitions is modern — the norms of 25 February 1978, entirely replaced by the Dicastery for the Doctrine of the Faith's norms of 17 May 2024 — and postdates the reported events by more than four centuries; under the current norms the Church as a rule no longer issues such a declaration at all (art. 23). Searched: every Roman act this chronology records, 1754 to 2002, each of which concerns the cult or the person of Juan Diego rather than the apparitions themselves. That the case did not go here is not a ruling against it.",
+        "sources": [
+          "ddf-norms-2024"
+        ]
+      }
+    ]
+  },
   "facts": [
     {
       "label": "What it is",
@@ -624,6 +701,14 @@
       "publisher": "DePaul University, Vincentian Studies",
       "publisherNote": "In-house memorial by Poole’s own religious community — sympathetic by nature, used here only for his life dates (born 6 March 1930, died 1 November 2020).",
       "type": "web"
+    },
+    {
+      "id": "ddf-norms-2024",
+      "title": "Norms for Proceeding in the Discernment of Alleged Supernatural Phenomena (17 May 2024)",
+      "url": "https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20240517_norme-fenomeni-soprannaturali_en.html",
+      "publisher": "Dicastery for the Doctrine of the Faith, Holy See",
+      "publisherNote": "The Church's current procedure for judging reported apparitions, in force since 19 May 2024; its art. 27 entirely replaces the norms of 25 February 1978, and its art. 23 states that as a rule no authority will now declare such phenomena supernatural. Cited here only to date the procedure — it is not applied retroactively to 1531.",
+      "type": "official"
     }
   ]
 }
