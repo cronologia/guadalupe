@@ -1,0 +1,629 @@
+{
+  "meta": {
+    "title": "Our Lady of Guadalupe — Cronologia",
+    "subtitle": "Chronology of the Guadalupe event, its documentary record, and the Church's judgments (1531–2002)",
+    "description": "An open, source-referenced chronology of Our Lady of Guadalupe: the apparitions reported at Tepeyac in December 1531, the documentary record, the historicity debate, and the Church's judgments — recorded, not resolved.",
+    "language": "en",
+    "siteUrl": "https://cronologia.github.io/guadalupe/",
+    "lastUpdated": "2026-08-05",
+    "dataQualityNote": "Work-in-progress dataset compiled from public sources (see references). The apparitions are recorded here as REPORTED events: the dataset records who reported what and when, and what the Church ruled and when, citing the ruling document; it never asserts the supernatural claim as fact. The historicity of Juan Diego and of the apparition account is a recorded disagreement in this dataset, not a resolved one — named scholars on both sides are cited. Dates not yet verified against a primary source are flagged with a ? mark. Corrections against primary sources are welcome."
+  },
+  "facts": [
+    {
+      "label": "What it is",
+      "value": "A Marian devotion centred on an image of the Virgin Mary preserved on the cloak (tilma) of Juan Diego Cuauhtlatoatzin, venerated at the Basilica of Our Lady of Guadalupe at Tepeyac, Mexico City, and associated with apparitions reported there in December 1531.",
+      "sources": [
+        "britannica-guadalupe"
+      ]
+    },
+    {
+      "label": "Reported apparitions",
+      "value": "9–12 December 1531 (Julian calendar), at the hill of Tepeyac near Mexico City, to Juan Diego Cuauhtlatoatzin — as narrated in the Nican Mopohua. These are reported events: the narrative's earliest known printed attestations date from 1648 (Spanish) and 1649 (Nahuatl).",
+      "sources": [
+        "nican-ucsd",
+        "britannica-guadalupe",
+        "poole-1995"
+      ]
+    },
+    {
+      "label": "The documentary record",
+      "value": "Nican Mopohua (attributed to Antonio Valeriano; printed in Luis Laso de la Vega's Huei tlamahuiçoltica, 1649), Miguel Sánchez's Imagen de la Virgen María (1648), the Informaciones Jurídicas de 1666, and the disputed Codex Escalada (surfaced 1995). The skeptical case rests above all on the silence of the 16th-century record, including Bishop Zumárraga's surviving papers and the 1556 Bustamante–Montúfar controversy.",
+      "sources": [
+        "huei-1649",
+        "hurtado-2018",
+        "lor-2002",
+        "ogorman-1986",
+        "poole-1995"
+      ]
+    },
+    {
+      "label": "Church judgments",
+      "value": "Benedict XIV declared the patronage over New Spain and approved the 12 December feast (1754); the image was canonically crowned (1895); John Paul II beatified Juan Diego (1990), extended the 12 December feast to the whole American continent (1999), and canonized him on 31 July 2002.",
+      "sources": [
+        "britannica-guadalupe",
+        "jp2-hom-2002",
+        "ecclesia-1999",
+        "traslosheros-2002"
+      ]
+    },
+    {
+      "label": "The historicity debate",
+      "value": "Whether Juan Diego existed and whether the apparition account predates the mid-17th century is disputed among scholars, including Catholic priests and officials: Stafford Poole, Edmundo O’Gorman and former basilica abbot Guillermo Schulenburg have argued against historicity; the historical commission of the cause — Fidel González Fernández, Eduardo Chávez Sánchez and José Luis Guerrero Rosado — the Congregation for the Causes of Saints, and scholars cited by L’Osservatore Romano, defended it. This dataset records the disagreement and attributes each position; it does not resolve it.",
+      "sources": [
+        "poole-1995",
+        "wikipedia-schulenburg",
+        "lor-2002",
+        "eluniversal-2002"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "year": 1531,
+      "date": "1531-12-09",
+      "dateVerified": false,
+      "dateNote": "Julian-calendar date (the Gregorian reform came in 1582) internal to the apparition narrative, whose earliest known printing is 1648–1649. Flagged unverified because no contemporary 16th-century source attests it — the dataset records it as the date the tradition reports, not as a documented one.",
+      "place": "Tepeyac, near Mexico City",
+      "title": "First reported apparition to Juan Diego",
+      "text": "According to the Nican Mopohua narrative, the Virgin Mary appeared to Juan Diego Cuauhtlatoatzin at dawn on the hill of Tepeyac and asked that a shrine be built there; the bishop-elect, Juan de Zumárraga, is said to have received him with reserve. The narrative reports further apparitions over the following days. All dates are Julian-calendar dates internal to the account: no contemporary 1531 document recording the events is known, a silence skeptical scholars emphasize and defenders explain through indigenous oral transmission.",
+      "sources": [
+        "nican-ucsd",
+        "catholic-enc-1910",
+        "vatican-bio-2002",
+        "poole-1995"
+      ]
+    },
+    {
+      "year": 1531,
+      "date": "1531-12-12",
+      "dateVerified": false,
+      "dateNote": "Julian-calendar date internal to the narrative and unattested by any contemporary source; 12 December is the feast the Church later fixed (1754), which is documented.",
+      "place": "Tepeyac / Mexico City",
+      "title": "Reported final apparition and the image on the tilma",
+      "text": "The narrative reports that Juan Diego gathered roses on Tepeyac at the Virgin's instruction and opened his cloak (tilma) before Bishop-elect Zumárraga, revealing the image of the Virgin now venerated at the basilica. The image's existence and veneration are documented from the mid-16th century; that it originated miraculously on 12 December 1531 is the tradition's claim, first printed in 1648–1649.",
+      "sources": [
+        "nican-ucsd",
+        "catholic-enc-1910",
+        "britannica-guadalupe"
+      ]
+    },
+    {
+      "year": 1548,
+      "date": "1548-05-30",
+      "dateVerified": false,
+      "dateNote": "Britannica gives 30 May 1548 and the Vatican biography 1548; no contemporary record of Juan Diego's death is known. The only document claimed to record it, the Codex Escalada, is itself of disputed authenticity.",
+      "place": "Tepeyac, Mexico City",
+      "title": "Reported death of Juan Diego",
+      "text": "Tradition places Juan Diego's death in 1548, the same year Bishop Zumárraga died. Skeptical scholars note that Zumárraga's surviving papers nowhere mention Juan Diego or the apparitions — one of the primary anchors of the case against historicity; defenders reply that the documentary loss of the period was severe and that the cult's indigenous transmission was oral.",
+      "sources": [
+        "britannica-juan-diego",
+        "vatican-bio-2002",
+        "mendez-acosta-2003",
+        "lor-2002"
+      ]
+    },
+    {
+      "year": 1556,
+      "date": "1556-09-08",
+      "dateVerified": true,
+      "place": "Mexico City",
+      "title": "Bustamante's sermon against the Tepeyac cult; Montúfar's inquiry",
+      "text": "The Franciscan provincial Francisco de Bustamante preached against the growing devotion at Tepeyac — days after Archbishop Alonso de Montúfar had preached in its favour — reportedly saying the image had been painted by an Indian. Montúfar opened a formal inquiry (the Información de 1556, rediscovered and published in the 19th century). This is the earliest substantial documentary reference to the image and cult, and it mentions neither Juan Diego nor the apparitions: skeptical scholars, following Edmundo O'Gorman and Stafford Poole, treat 1555–1556 as the real horizon of the devotion; defenders read the controversy as evidence the cult was already strong 25 years after the reported events.",
+      "sources": [
+        "ogorman-1986",
+        "poole-1995",
+        "mendez-acosta-2003"
+      ]
+    },
+    {
+      "year": 1648,
+      "date": "1648",
+      "dateVerified": true,
+      "place": "Mexico City",
+      "title": "Miguel Sánchez publishes Imagen de la Virgen María",
+      "text": "The priest Miguel Sánchez published Imagen de la Virgen María, Madre de Dios de Guadalupe — the earliest known printed account of the apparitions, 117 years after the reported events. For skeptical scholars this gap is the central problem of the tradition; for defenders Sánchez merely fixed in print an account transmitted orally and in now-lost manuscripts.",
+      "sources": [
+        "hurtado-2018",
+        "britannica-guadalupe",
+        "poole-1995"
+      ]
+    },
+    {
+      "year": 1649,
+      "date": "1649",
+      "dateVerified": true,
+      "place": "Mexico City",
+      "title": "Laso de la Vega publishes the Huei tlamahuiçoltica, containing the Nican Mopohua",
+      "text": "Luis Laso de la Vega, vicar of the Guadalupe chapel, published the Nahuatl tract Huei tlamahuiçoltica, whose core narrative, the Nican Mopohua ('Here it is told'), is widely though not unanimously attributed to the indigenous scholar Antonio Valeriano (c. 1531–1605). Defenders, citing Edmundo O'Gorman among others, date Valeriano's composition to c. 1556; skeptics attribute the work substantially to Laso de la Vega himself. Manuscript copies survive, notably in the New York Public Library's Monumentos Guadalupanos collection.",
+      "sources": [
+        "huei-1649",
+        "nican-ucsd",
+        "lor-2002"
+      ]
+    },
+    {
+      "year": 1666,
+      "date": "1666",
+      "dateVerified": true,
+      "place": "Mexico City / Cuautitlán",
+      "title": "Informaciones Jurídicas de 1666",
+      "text": "A formal ecclesiastical inquiry (February–March 1666) collected sworn testimonies — including from elderly indigenous witnesses of Cuautitlán who affirmed knowledge of Juan Diego through their parents' generation — to support a petition to Rome for a proper Mass and Office of Guadalupe. Defenders present the Informaciones as juridical evidence of a continuous tradition; skeptics note the testimonies were taken 135 years after the reported events.",
+      "sources": [
+        "lor-2002",
+        "poole-1995"
+      ]
+    },
+    {
+      "year": 1754,
+      "date": "1754-05-25",
+      "dateVerified": false,
+      "dateNote": "The year 1754 is verified (Britannica); the day 25 May, widely given for the bull Non est equidem, is not yet verified here against the bull's text.",
+      "place": "Rome",
+      "title": "Benedict XIV declares the Guadalupan patronage of New Spain",
+      "text": "Pope Benedict XIV declared Our Lady of Guadalupe patroness of New Spain and approved a proper Mass and Office for the feast of 12 December — the first major papal act in the Guadalupe record and the start of the Church-judgment spine this chronology follows.",
+      "sources": [
+        "britannica-guadalupe"
+      ]
+    },
+    {
+      "year": 1895,
+      "date": "1895-10-12",
+      "dateVerified": true,
+      "place": "Mexico City",
+      "title": "Canonical coronation of the image",
+      "text": "The image was solemnly crowned at Tepeyac by Archbishop Próspero María Alarcón with pontifical authorization granted under Leo XIII, amid nine days of celebrations in which the Mexican hierarchy presented Guadalupe as a foundational symbol of the nation — a reading historian Jorge Traslosheros analyses as the deliberate 'updating' of a national myth.",
+      "sources": [
+        "traslosheros-2002"
+      ]
+    },
+    {
+      "year": 1939,
+      "date": "1939",
+      "dateVerified": false,
+      "dateNote": "Stafford Poole dates the initiation of the beatification process to 1939; not yet verified against the cause's own documents.",
+      "place": "Mexico City / Rome",
+      "title": "Beatification process for Juan Diego initiated",
+      "text": "According to Stafford Poole, the process that would lead to Juan Diego's beatification began in 1939. From the outset the cause was entangled with the historicity question, since the candidate's existence rests on the same contested documentary record as the apparitions.",
+      "sources": [
+        "poole-2005"
+      ]
+    },
+    {
+      "year": 1990,
+      "date": "1990-05-06",
+      "dateVerified": true,
+      "place": "Basilica of Guadalupe, Mexico City",
+      "title": "John Paul II beatifies Juan Diego",
+      "text": "During his second visit to Mexico, John Paul II beatified Juan Diego at the basilica — formally a recognition of his longstanding cult. The beatification intensified rather than settled the scholarly dispute over his existence.",
+      "sources": [
+        "jp2-hom-1990",
+        "vatican-bio-2002",
+        "britannica-juan-diego"
+      ]
+    },
+    {
+      "year": 1995,
+      "date": "1995",
+      "dateVerified": false,
+      "dateNote": "The parchment is commonly reported as surfacing in 1995 and being published in 1997 in an appendix to Escalada's Enciclopedia Guadalupana; the find's provenance is itself part of the dispute.",
+      "place": "Mexico City",
+      "title": "The Codex Escalada surfaces — authenticity disputed",
+      "text": "A parchment bearing the date 1548, depicting an apparition and referring to Juan Diego's death, was made known through the Jesuit Xavier Escalada. Proponents cite expert examinations — Charles E. Dibble and the Bank of Mexico's document office endorsed the signature of Bernardino de Sahagún, and a 1997 UNAM team found materials consistent with the 16th century. Skeptics — Stafford Poole calls it 'most probably a crude nineteenth century forgery', and Rafael Tena raised objections from provenance, orthography and Sahagún's documented hostility to the Tepeyac cult — reject it, noting also its timing amid the canonization debate. Both positions are recorded here; neither is adopted.",
+      "sources": [
+        "wikipedia-codex-escalada",
+        "upaep-1548"
+      ]
+    },
+    {
+      "year": 1996,
+      "date": "1996",
+      "dateVerified": true,
+      "place": "Mexico City",
+      "title": "Abbot Schulenburg's statements and resignation",
+      "text": "Guillermo Schulenburg, abbot of the basilica since 1963, was quoted in the Catholic magazine Ixtus saying that Juan Diego was 'a symbol, not a reality' and that his canonization would be recognition of a cult rather than of a person's real existence. The ensuing controversy forced his resignation that year; he and other clergy later wrote to the Holy See urging that the canonization be reconsidered. His statements made the historicity debate a public, intra-Church dispute on the eve of the canonization.",
+      "sources": [
+        "wikipedia-schulenburg",
+        "mendez-acosta-2003"
+      ]
+    },
+    {
+      "year": 1999,
+      "date": "1999-01-22",
+      "dateVerified": true,
+      "place": "Mexico City",
+      "title": "Ecclesia in America: the feast extended to the whole continent",
+      "text": "In the post-synodal exhortation Ecclesia in America, signed at the Guadalupe basilica, John Paul II endorsed the celebration of Our Lady of Guadalupe, 'Mother and Evangelizer of America', throughout the continent on 12 December, invoking her as Patroness of all America.",
+      "sources": [
+        "ecclesia-1999"
+      ]
+    },
+    {
+      "year": 1999,
+      "date": "1999",
+      "dateVerified": true,
+      "dateNote": "The year of publication is verified (El Universal, 22 January 2002); the day sometimes given, 24 August 1999, is not verified here.",
+      "place": "Mexico City / Rome",
+      "title": "The cause’s historical commission publishes its findings",
+      "text": "The historical commission appointed for Juan Diego’s cause — presided by Fidel González Fernández, with postulator Eduardo Chávez Sánchez and vice-postulator José Luis Guerrero Rosado — published El encuentro de la Virgen de Guadalupe y Juan Diego (Porrúa, 1999), a 500-plus-page marshalling of indigenous and Spanish documents presented as establishing Juan Diego’s historical existence. It is the defenders’ principal scholarly statement; skeptics, Stafford Poole foremost, contested its readings of those documents. This chronology records the claim and the objection, and adjudicates neither.",
+      "sources": [
+        "eluniversal-2002",
+        "lor-2002",
+        "poole-2005"
+      ]
+    },
+    {
+      "year": 2002,
+      "date": "2002-07-31",
+      "dateVerified": true,
+      "place": "Basilica of Guadalupe, Mexico City",
+      "title": "Canonization of Juan Diego Cuauhtlatoatzin",
+      "text": "John Paul II canonized Juan Diego at the basilica as the first indigenous saint of the Americas. The canonization itself became part of the historicity dispute: months earlier, letters from Schulenburg and other clergy questioning Juan Diego’s existence had been leaked to the press, and Stafford Poole published ‘Did Juan Diego Exist?’ weeks before the ceremony; the Congregation for the Causes of Saints and the cause’s historical commission under Fidel González Fernández, together with scholars writing in L’Osservatore Romano, defended the historical basis of the cause. This chronology records the ruling and the dispute; it adjudicates neither.",
+      "sources": [
+        "jp2-hom-2002",
+        "britannica-juan-diego",
+        "poole-2005",
+        "lor-2002",
+        "eluniversal-2002"
+      ]
+    }
+  ],
+  "figures": [
+    {
+      "name": "Juan Diego Cuauhtlatoatzin",
+      "role": "The reported visionary of Tepeyac: an indigenous convert (traditional dates 1474–1548) said to have received the apparitions of December 1531. Beatified 1990, canonized 2002. Whether he existed at all is the core of the historicity debate: skeptics note no document names him before 1648; the Vatican biography and the cause's defenders hold his existence proven by tradition, the 1666 testimonies and the disputed Codex Escalada.",
+      "dates": "1474?–1548?",
+      "country": "Mexico (New Spain)",
+      "sources": [
+        "vatican-bio-2002",
+        "britannica-juan-diego",
+        "poole-1995"
+      ]
+    },
+    {
+      "name": "Juan de Zumárraga",
+      "role": "Franciscan first bishop (later archbishop) of Mexico, the prelate to whom the narrative says the tilma was presented in 1531. His surviving papers nowhere mention Juan Diego or the apparitions — the most cited single anchor of the skeptical case; defenders answer that he was bishop-elect in 1531, that much of his archive is lost, and that episcopal silence about an indigenous devotion is unremarkable for the period.",
+      "dates": "1468–1548",
+      "country": "Spain / Mexico (New Spain)",
+      "sources": [
+        "britannica-guadalupe",
+        "mendez-acosta-2003",
+        "lor-2002"
+      ]
+    },
+    {
+      "name": "Antonio Valeriano",
+      "role": "Indigenous Nahua scholar of Azcapotzalco, collaborator of Sahagún and long-time judge-governor of México-Tenochtitlan; the most commonly proposed author of the Nican Mopohua (a composition defenders date to c. 1556). The attribution is traditional and debated — 'nobody knows who composed it' is the sober scholarly position.",
+      "dates": "c. 1531–1605",
+      "country": "Mexico (New Spain)",
+      "sources": [
+        "nican-ucsd",
+        "lor-2002"
+      ]
+    },
+    {
+      "name": "Luis Laso de la Vega",
+      "role": "Vicar of the Guadalupe chapel at Tepeyac; published the Nahuatl Huei tlamahuiçoltica (1649) containing the Nican Mopohua. Skeptical scholarship regards him as substantially the author or editor of the account he printed.",
+      "dates": "fl. 1649",
+      "country": "Mexico (New Spain)",
+      "sources": [
+        "huei-1649",
+        "poole-1995"
+      ]
+    },
+    {
+      "name": "Miguel Sánchez",
+      "role": "Mexico City priest whose Imagen de la Virgen María (1648) is the earliest known printed account of the apparitions, framing Guadalupe within a providential theology of Mexico (the Woman of Revelation 12).",
+      "dates": "1594?–1674",
+      "country": "Mexico (New Spain)",
+      "sources": [
+        "hurtado-2018"
+      ]
+    },
+    {
+      "name": "Alonso de Montúfar",
+      "role": "Dominican second archbishop of Mexico; favoured the Tepeyac devotion and ordered the 1556 Información into Bustamante's sermon — the record of which is the earliest substantial documentation of the cult.",
+      "dates": "1489–1572",
+      "country": "Spain / Mexico (New Spain)",
+      "sources": [
+        "ogorman-1986"
+      ]
+    },
+    {
+      "name": "Francisco de Bustamante",
+      "role": "Franciscan provincial who preached against the Tepeyac cult on 8 September 1556, reportedly saying the image was painted by an Indian — the founding document of the skeptical case, recorded in Montúfar's Información.",
+      "dates": "† 1562",
+      "country": "Spain / Mexico (New Spain)",
+      "sources": [
+        "ogorman-1986"
+      ]
+    },
+    {
+      "name": "Edmundo O'Gorman",
+      "role": "Mexican historian whose Destierro de sombras (1986) reconstructed the 1556 controversy and argued the cult's documented origin lies in the 1550s; his work grounds much of the modern critical historiography, while defenders cite his dating of Valeriano's authorship to c. 1556 in support of an early written account.",
+      "dates": "1906–1995",
+      "country": "Mexico",
+      "sources": [
+        "ogorman-1986",
+        "lor-2002"
+      ]
+    },
+    {
+      "name": "Stafford Poole",
+      "role": "Vincentian priest and historian; his Our Lady of Guadalupe (1995) and ‘History versus Juan Diego’ (2005) argue that no reliable 16th-century evidence connects the Tepeyac cult to the apparition account or to Juan Diego, and that the Codex Escalada is probably a forgery. The most frequently cited scholar of the skeptical side in the sources gathered here — himself a Catholic priest. Born 6 March 1930; died 1 November 2020.",
+      "dates": "1930–2020",
+      "country": "United States",
+      "sources": [
+        "poole-1995",
+        "poole-2005",
+        "wikipedia-codex-escalada",
+        "poole-obit-2020"
+      ]
+    },
+    {
+      "name": "Fidel González Fernández",
+      "role": "Comboni priest and Church historian; president of the historical commission the Congregation for the Causes of Saints charged with examining the evidence for Juan Diego. With the cause’s postulator Eduardo Chávez Sánchez and vice-postulator José Luis Guerrero Rosado he published El encuentro de la Virgen de Guadalupe y Juan Diego (Porrúa, 1999), the defenders’ documentary case; skeptics including Stafford Poole rejected its handling of the sources. The most prominent named scholars on the pro-historicity side.",
+      "dates": "1943–",
+      "country": "Spain / Italy / Mexico",
+      "sources": [
+        "eluniversal-2002",
+        "lor-2002"
+      ]
+    },
+    {
+      "name": "Guillermo Schulenburg",
+      "role": "Abbot of the Basilica of Guadalupe 1963–1996; publicly doubted Juan Diego's existence ('a symbol, not a reality', Ixtus interview, 1996) and later joined letters to the Holy See against the canonization; forced to resign in 1996. His case shows the historicity dispute running inside the Church itself.",
+      "dates": "1916–2009",
+      "country": "Mexico",
+      "sources": [
+        "wikipedia-schulenburg",
+        "mendez-acosta-2003"
+      ]
+    },
+    {
+      "name": "Xavier Escalada",
+      "role": "Jesuit Guadalupan scholar who published the Codex Escalada (1997) as 16th-century documentary proof of Juan Diego and the apparitions; the codex is named after him. Its authenticity is defended by the examinations he commissioned and disputed by skeptical scholars.",
+      "dates": "1913–2006",
+      "country": "Spain / Mexico",
+      "sources": [
+        "wikipedia-codex-escalada",
+        "upaep-1548"
+      ]
+    }
+  ],
+  "organizations": [
+    {
+      "name": "Basílica de Nuestra Señora de Guadalupe (Tepeyac)",
+      "place": "Mexico City, Mexico",
+      "relation": "The shrine that holds and displays the tilma image; successive chapels and churches have stood at Tepeyac since the mid-16th century, and the present basilica was consecrated in 1976. One of the most visited Marian shrines in the world. Its own abbot (Schulenburg) became a protagonist of the historicity dispute.",
+      "sources": [
+        "britannica-guadalupe",
+        "wikipedia-schulenburg",
+        "ogorman-1986"
+      ]
+    },
+    {
+      "name": "Real Monasterio de Santa María de Guadalupe (Extremadura)",
+      "place": "Guadalupe, Cáceres, Spain",
+      "relation": "The older Spanish shrine — medieval in origin — from which the name ‘Guadalupe’ comes: it is NOT the Mexican shrine and its statue is NOT the tilma image. How the Extremaduran name attached to the Tepeyac cult (and whether early references to ‘Guadalupe’ in New Spain mean the Spanish devotion) is itself part of the historiographical debate.",
+      "sources": [
+        "poole-1995",
+        "catholic-enc-1910"
+      ]
+    }
+  ],
+  "disambiguation": {
+    "note": "The Guadalupe record is contested terrain: the same word names two shrines on two continents, and the same documents are read as proof by one side and as late constructions by the other. This dataset records reported events, documents, and Church judgments — with each contested characterization attributed to whoever makes it.",
+    "items": [
+      {
+        "title": "Guadalupe (Tepeyac, Mexico) ≠ Guadalupe (Extremadura, Spain)",
+        "text": "The Mexican devotion centres on the tilma image at Tepeyac; the Spanish one on a medieval statue in Extremadura. The Mexican cult's name derives from the Spanish shrine, and 16th-century references to 'Guadalupe' in New Spain must be disambiguated case by case — a genuine trap for sources and searches.",
+        "sources": [
+          "poole-1995",
+          "catholic-enc-1910"
+        ]
+      },
+      {
+        "title": "A reported apparition ≠ a documented historical event",
+        "text": "The apparitions of 9–12 December 1531 are events reported in a narrative first printed in 1648–1649. This dataset records who reported what and when (the narrative, its manuscripts, the testimonies of 1666) and what the Church ruled and when (1754, 1895, 1990, 1999, 2002) — it does not assert the supernatural claim as fact, nor its negation.",
+        "sources": [
+          "poole-1995",
+          "lor-2002"
+        ]
+      },
+      {
+        "title": "Nican Mopohua ≠ Huei tlamahuiçoltica",
+        "text": "The Nican Mopohua is the core apparition narrative; the Huei tlamahuiçoltica (1649) is the larger Nahuatl tract in which it was printed, together with the Nican Motecpana (accounts of miracles) and other material. Authorship of the parts is attributed differently by different scholars.",
+        "sources": [
+          "huei-1649",
+          "nican-ucsd"
+        ]
+      },
+      {
+        "title": "Julian dates ≠ Gregorian dates",
+        "text": "The 1531 dates are Julian-calendar dates (the Gregorian reform came in 1582). Sources rarely state which calendar they use when discussing the apparitions; this dataset gives the dates as the tradition reports them and flags the calendar question rather than silently converting.",
+        "sources": [
+          "catholic-enc-1910"
+        ]
+      },
+      {
+        "title": "Canonization ≠ a historical-critical verdict",
+        "text": "The 2002 canonization is a judgment of the Church about a cult and a cause, made — as skeptics like Poole and Schulenburg publicly argued at the time — over unresolved documentary objections; defenders held the cause's historical commission had answered them. Recording the ruling is not recording a resolution of the scholarly dispute, which continued after 2002.",
+        "sources": [
+          "poole-2005",
+          "wikipedia-schulenburg",
+          "lor-2002"
+        ]
+      }
+    ]
+  },
+  "references": [
+    {
+      "id": "nican-ucsd",
+      "title": "Nican Mopohua: Thus It Is Told (Nahuatl text with English translation)",
+      "url": "https://pages.ucsd.edu/~dkjordan/nahuatl/nican/NicanMopohua.html",
+      "publisher": "David K. Jordan, University of California, San Diego",
+      "publisherNote": "Scholarly bilingual edition of the core apparition narrative, with a sober discussion of the disputed authorship.",
+      "type": "academic"
+    },
+    {
+      "id": "huei-1649",
+      "title": "Huei tlamahuiçoltica … (Mexico City: Juan Ruiz, 1649) — digitized original",
+      "url": "https://archive.org/details/hueitlamahuiolti00lass",
+      "publisher": "Internet Archive",
+      "publisherNote": "Digitization of the 1649 Nahuatl imprint by Luis Laso de la Vega containing the Nican Mopohua.",
+      "type": "archive"
+    },
+    {
+      "id": "hurtado-2018",
+      "title": "La idea de la historia en Imagen de la virgen María de Miguel Sánchez",
+      "url": "https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S0185-25232018000200071",
+      "publisher": "Estudios de Historia Novohispana, UNAM",
+      "publisherNote": "Peer-reviewed study of Sánchez's 1648 book, the earliest printed apparition account.",
+      "type": "academic"
+    },
+    {
+      "id": "ogorman-1986",
+      "title": "Destierro de sombras — cap. III, El sermón del provincial fray Francisco de Bustamante",
+      "url": "https://historicas.unam.mx/publicaciones/publicadigital/libros/222c/222c_04_02_03_CapituloTercero.pdf",
+      "publisher": "Edmundo O'Gorman / UNAM, Instituto de Investigaciones Históricas",
+      "publisherNote": "Foundational critical historiography of the 1556 Bustamante–Montúfar controversy; skeptical of the apparition tradition's early dating.",
+      "type": "academic"
+    },
+    {
+      "id": "catholic-enc-1910",
+      "title": "Shrine of Guadalupe (Catholic Encyclopedia, 1910)",
+      "url": "https://www.newadvent.org/cathen/07043a.htm",
+      "publisher": "New Advent",
+      "publisherNote": "Early 20th-century Catholic reference work; states the traditional account from the Church's perspective of its time.",
+      "type": "encyclopedia"
+    },
+    {
+      "id": "britannica-guadalupe",
+      "title": "Our Lady of Guadalupe (patron saint of Mexico)",
+      "url": "https://www.britannica.com/topic/Our-Lady-of-Guadalupe-patron-saint-of-Mexico",
+      "publisher": "Encyclopaedia Britannica",
+      "publisherNote": "General reference; summarizes both the tradition and the scholarly doubts.",
+      "type": "encyclopedia"
+    },
+    {
+      "id": "britannica-juan-diego",
+      "title": "St. Juan Diego",
+      "url": "https://www.britannica.com/biography/St-Juan-Diego",
+      "publisher": "Encyclopaedia Britannica",
+      "publisherNote": "General reference biography with the traditional dates and the beatification and canonization dates.",
+      "type": "encyclopedia"
+    },
+    {
+      "id": "poole-1995",
+      "title": "Our Lady of Guadalupe: The Origins and Sources of a Mexican National Symbol, 1531–1797",
+      "url": "https://archive.org/details/ourladyofguadalu0000pool",
+      "publisher": "Stafford Poole, University of Arizona Press",
+      "publisherNote": "The standard skeptical monograph: a source-by-source examination concluding the apparition account is unattested before 1648. Lending-library digitization.",
+      "type": "academic"
+    },
+    {
+      "id": "poole-2005",
+      "title": "History versus Juan Diego",
+      "url": "https://www.cambridge.org/core/journals/americas/article/abs/history-versus-juan-diego/85D240A9B39138EED5EC6D916E64C81A",
+      "publisher": "The Americas 62:1, Cambridge University Press",
+      "publisherNote": "Peer-reviewed article on the beatification and canonization controversies. Only the abstract is openly accessible; full text is paywalled.",
+      "type": "academic"
+    },
+    {
+      "id": "mendez-acosta-2003",
+      "title": "Juan Diego (Free Inquiry 23/2, Spring 2003)",
+      "url": "https://secularhumanism.org/2003/03/juan-diego/",
+      "publisher": "Mario Méndez Acosta, Free Inquiry",
+      "publisherNote": "Secular-humanist magazine — a critical, avowedly skeptical perspective; useful for the skeptical case as publicly argued, cited here as an attributed position.",
+      "type": "news"
+    },
+    {
+      "id": "wikipedia-schulenburg",
+      "title": "Guillermo Schulenburg",
+      "url": "https://en.wikipedia.org/wiki/Guillermo_Schulenburg",
+      "publisher": "Wikipedia",
+      "publisherNote": "Tertiary source, used provisionally for the 1996 Ixtus interview and resignation; the primary press coverage (New York Times, 8 September 1996; La Jornada, 22 January 2002) is not reachable from this session and should replace it.",
+      "type": "encyclopedia"
+    },
+    {
+      "id": "wikipedia-codex-escalada",
+      "title": "Codex Escalada",
+      "url": "https://en.wikipedia.org/wiki/Codex_Escalada",
+      "publisher": "Wikipedia",
+      "publisherNote": "Tertiary source, used provisionally as the most complete freely reachable summary of both positions on the codex's authenticity, with named experts on each side.",
+      "type": "encyclopedia"
+    },
+    {
+      "id": "lor-2002",
+      "title": "Our Lady of Guadalupe: Historical Sources (L'Osservatore Romano, 23 January 2002)",
+      "url": "https://www.ewtn.com/catholicism/library/our-lady-of-guadalupe-historical-sources-5605",
+      "publisher": "L'Osservatore Romano, via EWTN",
+      "publisherNote": "The Holy See's newspaper defending the historicity of Juan Diego on the eve of the canonization — the pro-authenticity case as the Church argued it.",
+      "type": "official"
+    },
+    {
+      "id": "upaep-1548",
+      "title": "Códice 1548 (Códice Escalada)",
+      "url": "https://guadalupe.upaep.mx/capsulas/1548.html",
+      "publisher": "Universidad Popular Autónoma del Estado de Puebla",
+      "publisherNote": "Guadalupan-studies page of a Catholic university — presents the case for the codex's authenticity.",
+      "type": "web"
+    },
+    {
+      "id": "vatican-bio-2002",
+      "title": "Juan Diego Cuauhtlatoatzin — biography for the canonization",
+      "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_20020731_juan-diego_en.html",
+      "publisher": "Holy See Press Office",
+      "publisherNote": "The Church's official account of Juan Diego's life, published for the 2002 canonization; states the tradition as fact.",
+      "type": "official"
+    },
+    {
+      "id": "jp2-hom-1990",
+      "title": "Homily of John Paul II, beatification Mass, Mexico City, 6 May 1990",
+      "url": "https://www.vatican.va/content/john-paul-ii/es/homilies/1990/documents/hf_jp-ii_hom_19900506_citta-del-messico.html",
+      "publisher": "Holy See",
+      "publisherNote": "Primary document of the beatification (Spanish).",
+      "type": "official"
+    },
+    {
+      "id": "ecclesia-1999",
+      "title": "Ecclesia in America, post-synodal apostolic exhortation, 22 January 1999",
+      "url": "https://www.vatican.va/content/john-paul-ii/en/apost_exhortations/documents/hf_jp-ii_exh_22011999_ecclesia-in-america.html",
+      "publisher": "Holy See",
+      "publisherNote": "Primary document endorsing the continental celebration of the 12 December feast.",
+      "type": "official"
+    },
+    {
+      "id": "jp2-hom-2002",
+      "title": "Homily of John Paul II, canonization Mass of Juan Diego, 31 July 2002",
+      "url": "https://www.vatican.va/content/john-paul-ii/en/homilies/2002/documents/hf_jp-ii_hom_20020731_canonization-mexico.html",
+      "publisher": "Holy See",
+      "publisherNote": "Primary document of the canonization.",
+      "type": "official"
+    },
+    {
+      "id": "traslosheros-2002",
+      "title": "Señora de la historia, Madre mestiza, Reina de México. La coronación de la Virgen de Guadalupe, 1895",
+      "url": "https://signoshistoricos.izt.uam.mx/index.php/historicos/article/view/89",
+      "publisher": "Jorge E. Traslosheros, Signos Históricos 4/7",
+      "publisherNote": "Peer-reviewed study of the 1895 coronation and its nation-building use.",
+      "type": "academic"
+    },
+    {
+      "id": "eluniversal-2002",
+      "title": "Reabren debate sobre Juan Diego (El Universal, 22 de enero de 2002)",
+      "url": "https://archivo.eluniversal.com.mx/nacion/77246.html",
+      "publisher": "El Universal",
+      "publisherNote": "Mexican daily press, contemporaneous with the dispute; reports both the Schulenburg letters against the canonization and the historical commission that defended it, naming the protagonists on each side.",
+      "type": "news"
+    },
+    {
+      "id": "poole-obit-2020",
+      "title": "In Memoriam: Rev. Stafford Poole, C.M.",
+      "url": "https://blogs.depaul.edu/dmm/2020/11/03/in-memoriam-rev-stafford-poole-c-m/",
+      "publisher": "DePaul University, Vincentian Studies",
+      "publisherNote": "In-house memorial by Poole’s own religious community — sympathetic by nature, used here only for his life dates (born 6 March 1930, died 1 November 2020).",
+      "type": "web"
+    }
+  ]
+}
