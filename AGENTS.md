@@ -127,6 +127,24 @@ byte-identical to a build without the feature. Shapes are shown in
   events happened. fsp's year-slider membership map is a declared follow-up
   (core#3), not covered by this key yet.
 
+- **`approvalLadder`** — the Church-judgment rungs (`renderApprovalLadder`,
+  adopted verbatim from `cronologia/core`). Renders at the TOP of the page,
+  above `about`. `stages[]` are DECLARED IN DATA, not hardcoded: each rung has a
+  `label`, optional `when`/`who`/`outcome`, and a `status` from the closed enum
+  in `STATUS_GLYPH` (`favourable`, `negative`, `inconclusive`,
+  `reported-undocumented`, `not-found`, `not-reached`, `pending`). Four
+  properties the renderer's header comment fixes and any redesign must keep: no
+  overall verdict badge for the case; "no ruling found" (`not-found`), "did not
+  go there" (`not-reached`) and "ruled against" (`negative`) stay distinct;
+  every rung carries `sources[]` or a `noDocument` note saying what was searched
+  (the build FAILS otherwise); and status is always text + glyph, never colour
+  alone. `status` is deliberately excluded from the `approvalLadder` entry in
+  `SUBTREE_TRANSLATABLE` — it is an enum, and translating it breaks only the
+  localized build. Here the ladder records that the 1531 events predate the
+  apparition-investigation procedure entirely, and that the Roman acts of 1754,
+  1895, 1990 and 2002 concern the cult and the person of Juan Diego, not the
+  historicity of the apparitions.
+
 - **`meta.threads`** — the per-repo lane taxonomy (core#23) and, once declared,
   the **swimlanes** figure (`renderSwimlanes`): one row per lane, one column per
   decade, each cell that lane's event count, rendered as a real `<table>`
