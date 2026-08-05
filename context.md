@@ -4,9 +4,11 @@ Read with `AGENTS.md` and the `sourcing-rules` skill before changing anything.
 
 ## What this repo is
 
-A chronology of **Our Lady of Guadalupe**: the apparitions reported at Tepeyac
-in December 1531, the documents that carry the account, the dispute over whether
-any of it is historical, and the Church's judgments from 1754 to 2002.
+A chronology of **Our Lady of Guadalupe**: the setting in New Spain before 1531,
+the apparitions reported at Tepeyac in December 1531, the documents that carry
+the account, the dispute over whether any of it is historical, the Church's
+judgments from 1754 to 2002, the successive shrines at Tepeyac, and what has
+been *reported* there since — down to the pilgrimage counts of 2025.
 
 It differs from a devotional timeline and from a debunking timeline in the same
 way: **the disagreement is the object of the record.** Neither the supernatural
@@ -25,7 +27,18 @@ chronology holds, side by side and dated:
   Montúfar's *Información*, mentions neither the visionary nor the visions;
 - **the Church's rulings, with their documents** — Benedict XIV's patronage and
   feast (1754), the canonical coronation (1895), the beatification (1990),
-  *Ecclesia in America* (1999), the canonization (2002).
+  *Ecclesia in America* (1999), the canonization (2002), and the decree of
+  20 December 2001 on a miracle attributed to Bl. Juan Diego's intercession;
+- **the setting, as context and never as corroboration** — the fall of
+  Tenochtitlan (1521), the landing of the first twelve Franciscans (1524) and
+  Zumárraga's arrival as bishop-elect (1528). These entries say what New Spain
+  looked like in the decade the account describes. Each of them says, in its own
+  text, that it is not evidence for or against the apparition account. Nothing
+  in this half may be written so that it reads as support for either side;
+- **the afterlife** — the shrines (1622, 1709, 1976), the patronage sworn by
+  Mexico City in 1737 and accepted across New Spain in 1746, Guadalupe as an
+  insurgent and national emblem (1810, 1914), the 1921 bombing, and the
+  pilgrimage counts as published by the bodies that count.
 
 Every contested characterisation is attributed to a named person or body.
 Skeptical side: Stafford Poole (1930–2020), Edmundo O'Gorman, Guillermo
@@ -36,29 +49,67 @@ Escalada, Charles E. Dibble, the Congregation for the Causes of Saints,
 *L'Osservatore Romano*. Two of the loudest skeptics are a Catholic priest and a
 basilica abbot: this is an intra-Church dispute, and the dataset shows it as one.
 
+## How reported miracles are handled (core#71)
+
+**A miracle is a claim, not an event.** Only two things attached to one are
+datable, and only these are in `events[]`:
+
+1. **The account** — that a cure or wonder was *reported*, by whom, and when the
+   report is first attested. The event is the reporting. `title` names the
+   reporter, never the beneficiary: "Bernal Díaz del Castillo reports miracles
+   at the Tepeaquilla chapel", never "N was cured".
+2. **The recognition act** — a dated Church judgment with a document. Here there
+   is exactly one: the Holy See bulletin of 20 December 2001 promulgating a
+   decree on a miracle attributed to Bl. Juan Diego's intercession. It judges an
+   intercession inside a canonization cause; it is not a ruling on 1531.
+
+Consequences that hold and must keep holding:
+
+- No cure is recorded as having happened, anywhere in the dataset.
+- A claimed cure with neither a named reporter nor a Church act is **left out**.
+  The devotional literature carries many; none of them is here.
+- Aggregate claims are attributed to whoever counts. The 2025 pilgrimage figure
+  is the Mexico City government's `Operativo Basílica` estimate; the annual
+  30-million figure is the city tourism office's; the dataset says so and does
+  not reconcile them, because their counters do not.
+- Claims about the image itself — preservation, pigments, the eye reflections —
+  are attributed to the researchers who made them and dated to when they made
+  them (Callahan 1981, Aste Tönsmann from 1979). The 1921 bombing is recorded
+  as an event; the intactness of the image afterwards is recorded as a *report*.
+- **Cures get no approval-ladder rungs.** The ladder judges the apparitions.
+  The 2001 decree did not change it and must not.
+
 ## Current state (2026-08-05)
 
-Bootstrap wave, first commit.
+Second wave: the chronology widened before and after the apparitions (core#71).
 
-- `data/chronology.json` — 16 events (1531–2002), 5 facts, 12 figures,
-  2 organizations, 5 disambiguation entries, 21 references.
-- `data/i18n/es.json`, `data/i18n/pt.json` — 108/108 translatable strings each,
+- `data/chronology.json` — 30 events (1521–2025), 6 facts, 12 figures,
+  2 organizations, 6 disambiguation entries, 34 references.
+- `data/i18n/es.json`, `data/i18n/pt.json` — 186/186 translatable strings each,
   hand-authored by an LLM, `humanReviewed: false`. No native speaker has read
   them yet.
 - `docs/` — built for `en`, `es`, `pt`.
 - No `meta.threads` taxonomy yet (see below), no `data/archives.json` yet, no
   `data/places.json` yet.
 
-Six events carry `dateVerified: false` and render with a `?` flag:
+Eight events carry `dateVerified: false` and render with a `?` flag:
 
 | date | why it is flagged |
 |---|---|
+| 1528-12 | the Franciscan encyclopedia gives "fines de 1528"; other accounts give 6 December, with no document cited |
 | 1531-12-09 | Julian date internal to a narrative first printed 1648–49; no contemporary source attests it |
 | 1531-12-12 | same; 12 December is documented only as the feast fixed in 1754 |
 | 1548-05-30 | day given by Britannica; no contemporary record of Juan Diego's death exists, and the only document claimed to record it (Codex Escalada) is disputed |
+| 1568 | the conventional year for Bernal Díaz's completed manuscript; the text was first printed in 1632 and the interval is not documented here |
 | 1754-05-25 | year verified; the day usually given for the bull *Non est equidem* not checked against the bull's text |
 | 1939 | Poole's dating of the start of the beatification process, not checked against the cause's own documents |
 | 1995 | the parchment's surfacing date — its provenance is part of the dispute |
+
+Three further events are dated to the year or carry a `dateNote` recording a
+disagreement rather than resolving it: 1737-04-27 (Rodríguez Navarijo's diary
+against accounts giving 24 April), 1709-05-01 (dedication 27 April vs. transfer
+1 May) and 1810 (the year is verified; the Atotonilco standard tradition of
+16 September is not documented by any source consulted and is not recorded).
 
 ## Open questions
 
@@ -96,6 +147,23 @@ Six events carry `dateVerified: false` and render with a `?` flag:
    the disambiguation entry should cite it.
 8. **The i18n dictionaries need a native reader.** The Spanish is written to read
    as Mexican-inflected Spanish; nothing in it has been reviewed by a human.
+9. **Things deliberately left out of the miracle half.** Written down because
+   omission editorialises. The 1936 claim attributed to the chemist Richard Kuhn
+   that the tilma's pigments are of no known origin is repeated everywhere and
+   rests on no locatable publication or archival record — there is no source that
+   says who reported it and when, so it is not in the dataset. The *Nican
+   Motecpana*'s fourteen individual miracle accounts of 1649 are named in
+   `facts[]` and in the disambiguation but are not broken out as fourteen events:
+   they would need the Sousa/Poole/Lockhart critical edition, which was not
+   reachable, and fourteen thin rows would drown the sourced ones. The healing
+   behind the 2001 decree (Juan José Barragán Silva, 1990) is described only in
+   press and devotional accounts; the event records the *decree*, names the press
+   attribution as such, and asserts no cure.
+10. **`memoricamexico.gob.mx` returned 403** to this session, so the official
+   Mexican archive page on the insurgent Guadalupan standard could not be used;
+   the INEHRM PDF on Hidalgo's route is image-only and not text-extractable. The
+   1810 event therefore rests on Britannica and stops at the year. Both are worth
+   another attempt via the `net-access` ladder.
 
 ## Conventions specific to this repo
 

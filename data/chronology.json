@@ -1,12 +1,12 @@
 {
   "meta": {
     "title": "Our Lady of Guadalupe — Cronologia",
-    "subtitle": "Chronology of the Guadalupe event, its documentary record, and the Church's judgments (1531–2002)",
-    "description": "An open, source-referenced chronology of Our Lady of Guadalupe: the apparitions reported at Tepeyac in December 1531, the documentary record, the historicity debate, and the Church's judgments — recorded, not resolved.",
+    "subtitle": "Chronology of the Guadalupe event in its setting: New Spain before 1531, the documentary record, the Church's judgments, the shrines, and what has been reported at Tepeyac since (1521–2025)",
+    "description": "An open, source-referenced chronology of Our Lady of Guadalupe: the evangelisation of New Spain before 1531, the apparitions reported at Tepeyac in December 1531, the documentary record, the historicity debate, the successive shrines, the Church's judgments, and the miracles reported there — recorded, not resolved.",
     "language": "en",
     "siteUrl": "https://cronologia.github.io/guadalupe/",
     "lastUpdated": "2026-08-05",
-    "dataQualityNote": "Work-in-progress dataset compiled from public sources (see references). The apparitions are recorded here as REPORTED events: the dataset records who reported what and when, and what the Church ruled and when, citing the ruling document; it never asserts the supernatural claim as fact. The historicity of Juan Diego and of the apparition account is a recorded disagreement in this dataset, not a resolved one — named scholars on both sides are cited. Dates not yet verified against a primary source are flagged with a ? mark. Corrections against primary sources are welcome."
+    "dataQualityNote": "Work-in-progress dataset compiled from public sources (see references). The apparitions are recorded here as REPORTED events: the dataset records who reported what and when, and what the Church ruled and when, citing the ruling document; it never asserts the supernatural claim as fact. The historicity of Juan Diego and of the apparition account is a recorded disagreement in this dataset, not a resolved one — named scholars on both sides are cited. Events before 1531 (the conquest, the first Franciscans, Zumárraga's arrival) are CONTEXT for the setting the account presupposes; they are not offered as corroboration of it. Reported miracles are handled the same way as everything else contested: the datable thing is the ACCOUNT — that a cure or wonder was reported, by whom, and when it was first attested — or the RECOGNITION ACT, a dated Church judgment with a document. No cure is recorded as having happened, aggregate figures and pilgrimage counts are attributed to whoever publishes them, and claims about the image's origin or preservation are attributed to the named researchers who made them. Dates not yet verified against a primary source are flagged with a ? mark. Corrections against primary sources are welcome."
   },
   "approvalLadder": {
     "navLabel": "Church acts",
@@ -132,9 +132,53 @@
         "lor-2002",
         "eluniversal-2002"
       ]
+    },
+    {
+      "label": "Reported miracles",
+      "value": "Miracles have been reported at Tepeyac since the sixteenth century — Bernal Díaz del Castillo already writes of miracles done 'every day' there in the 1560s, and the Nican Motecpana printed in 1649 sets out fourteen. This dataset records such reports as reports: who claimed what, and when the claim is first attested. It records no cure as having happened. The one Church recognition act on this record is the decree of 20 December 2001 on a miracle attributed to Blessed Juan Diego's intercession, which belongs to his canonization cause and judges an intercession, not the apparitions. Claims about the image itself — its preservation, its pigments, reflections in its eyes — are attributed to the researchers who made them and to the date they made them.",
+      "sources": [
+        "bernal-1632",
+        "huei-1649",
+        "vatican-decreti-2001",
+        "cara-callahan-1981"
+      ]
     }
   ],
   "events": [
+    {
+      "year": 1521,
+      "date": "1521-08-13",
+      "dateVerified": true,
+      "place": "Tenochtitlan (Mexico City)",
+      "title": "Fall of Tenochtitlan",
+      "text": "After a siege that began in May, the Mexica capital fell to Hernán Cortés and his indigenous allies and Cuauhtémoc was captured; over the following three years the conquerors brought Mesoamerica under Spanish rule and established New Spain. This is the political setting of the decade in which the apparitions are reported, recorded here as context. It is not evidence for or against the apparition account, and no source cited in this dataset connects the two events.",
+      "sources": [
+        "britannica-tenochtitlan"
+      ]
+    },
+    {
+      "year": 1524,
+      "date": "1524-05-13",
+      "dateVerified": true,
+      "place": "San Juan de Ulúa, Veracruz",
+      "title": "The first twelve Franciscans land in New Spain",
+      "text": "Twelve Franciscans led by Fray Martín de Valencia — later called the 'twelve apostles of Mexico' — landed at San Juan de Ulúa and walked to Mexico City, beginning the organised evangelisation of central New Spain. Their convents, catechisms in indigenous languages and mass baptisms are the missionary setting the apparition narrative presupposes; the narrative itself names none of them.",
+      "sources": [
+        "omp-doce-2024"
+      ]
+    },
+    {
+      "year": 1528,
+      "date": "1528-12",
+      "dateVerified": false,
+      "dateNote": "The Franciscan encyclopedia gives 'fines de 1528' for his arrival; other accounts give 6 December 1528. The month is recorded here and the day is not, because no source consulted for this dataset carries a document for it.",
+      "place": "Mexico City",
+      "title": "Zumárraga arrives as bishop-elect of Mexico and Protector of the Indians",
+      "text": "Juan de Zumárraga, presented for the new see of Mexico on 12 December 1527, reached Mexico City at the end of 1528 carrying the title of Protector of the Indians but not yet his bulls: in December 1531 he was still bishop-elect, and he was not consecrated bishop until 27 April 1533, at San Francisco de Valladolid in Spain. This dataset therefore calls him bishop-elect in the 1531 entries. He died in Mexico on 3 June 1548. Recorded as context for who held the office the narrative places Juan Diego before; it is not an argument about whether that meeting happened.",
+      "sources": [
+        "franciscanos-zumarraga"
+      ]
+    },
     {
       "year": 1531,
       "date": "1531-12-09",
@@ -193,6 +237,31 @@
       ]
     },
     {
+      "year": 1568,
+      "date": "1568",
+      "dateVerified": false,
+      "dateNote": "Bernal Díaz completed his manuscript in the 1560s — 1568 is the year conventionally given and the one the Catholic Encyclopedia uses — but the work was first printed in Madrid in 1632, and the text as printed is the text available. Flagged because the interval between composition and printing is not documented here.",
+      "place": "Tepeaquilla (Tepeyac), New Spain",
+      "title": "Bernal Díaz del Castillo reports miracles at the Tepeaquilla chapel",
+      "text": "In his Historia verdadera de la conquista de la Nueva España, the conquistador Bernal Díaz del Castillo writes of 'the holy chapel of Our Lady of Guadalupe, which is in Tepeaquilla' and of 'the holy miracles she has done and does every day'. The datable thing here is the REPORT: a named eyewitness of the conquest, writing in the 1560s, attests that miracles were being reported at the shrine. He describes no cure, names no beneficiary, and mentions neither Juan Diego nor any apparition. This dataset records that the claim was made and by whom; it does not record that miracles occurred.",
+      "sources": [
+        "bernal-1632",
+        "catholic-enc-1910"
+      ]
+    },
+    {
+      "year": 1622,
+      "date": "1622",
+      "dateVerified": true,
+      "place": "Tepeyac, Mexico City",
+      "title": "The second shrine at Tepeyac is dedicated",
+      "text": "Archbishop Juan Pérez de la Serna consecrated a new sanctuary at Tepeyac, the 'iglesia artesonada', replacing the small early chapel that had served the devotion for roughly ninety years. The building history of the site is one of the few strands of this record documented continuously from the sixteenth century onward, independently of the apparition question.",
+      "sources": [
+        "catholic-enc-1910",
+        "desdelafe-antigua-basilica"
+      ]
+    },
+    {
       "year": 1648,
       "date": "1648",
       "dateVerified": true,
@@ -231,6 +300,44 @@
       ]
     },
     {
+      "year": 1709,
+      "date": "1709-05-01",
+      "dateVerified": true,
+      "dateNote": "The Archdiocese of Mexico gives the first stone as 25 March 1695, completion in April 1709, dedication on 27 April 1709 and the transfer of the image on 1 May 1709. The event is dated here at the transfer.",
+      "place": "Tepeyac, Mexico City",
+      "title": "The image is moved to the new shrine — today the Antigua Basílica",
+      "text": "The larger sanctuary begun in 1695 to designs by Pedro de Arrieta was dedicated on 27 April 1709 and received the image on 1 May. It housed it for 267 years, until 1976. The colegiata was raised to the rank of basilica in 1904.",
+      "sources": [
+        "desdelafe-antigua-basilica",
+        "catholic-enc-1910",
+        "britannica-guadalupe"
+      ]
+    },
+    {
+      "year": 1737,
+      "date": "1737-04-27",
+      "dateVerified": true,
+      "dateNote": "The date is taken from the diary of Ignacio Rodríguez Navarijo, a contemporary witness, as published by UNAM's Instituto de Investigaciones Históricas; some accounts give 24 April instead. The disagreement is recorded, not resolved.",
+      "place": "Mexico City",
+      "title": "Mexico City swears Our Lady of Guadalupe as its patroness during the matlazáhuatl epidemic",
+      "text": "The matlazáhuatl epidemic reached Mexico City late in 1736 and killed tens of thousands there over the following year. As it receded, the city swore the Guadalupan patronage before the archbishop-viceroy: Rodríguez Navarijo's diary records the act in a single line on 27 April. That the Virgin ended the epidemic is a claim, and this dataset attributes it: it is the argument of Cayetano de Cabrera y Quintero's Escudo de armas de México (1746), a work written to make exactly that case, and the same diarist who records the oath gives the intervention no such weight. Britannica notes the same credit as something Guadalupe 'was credited with'.",
+      "sources": [
+        "unam-matlazahuatl",
+        "britannica-guadalupe"
+      ]
+    },
+    {
+      "year": 1746,
+      "date": "1746",
+      "dateVerified": true,
+      "place": "New Spain",
+      "title": "The patronage is accepted across the territories of New Spain",
+      "text": "The patronage sworn by Mexico City in 1737 was accepted by all the territories of New Spain in 1746 — the step that made the subsequent Roman confirmation possible. Benedict XIV approved the patronage and granted the proper Mass and Office in 1754.",
+      "sources": [
+        "britannica-guadalupe"
+      ]
+    },
+    {
       "year": 1754,
       "date": "1754-05-25",
       "dateVerified": false,
@@ -240,6 +347,19 @@
       "text": "Pope Benedict XIV declared Our Lady of Guadalupe patroness of New Spain and approved a proper Mass and Office for the feast of 12 December — the first major papal act in the Guadalupe record and the start of the Church-judgment spine this chronology follows.",
       "sources": [
         "britannica-guadalupe"
+      ]
+    },
+    {
+      "year": 1810,
+      "date": "1810",
+      "dateVerified": true,
+      "dateNote": "The year is verified. The tradition that the standard was taken from the sanctuary of Atotonilco on 16 September 1810 is widely repeated and is disputed in its details; no source consulted for this dataset documents that day, so it is not recorded here.",
+      "place": "New Spain / Mexico",
+      "title": "Guadalupe becomes an insurgent emblem",
+      "text": "Miguel Hidalgo y Costilla promoted Our Lady of Guadalupe as patroness of the revolt he led against Spanish rule in 1810; a century later Emiliano Zapata's peasant rebels carried her banner into Mexico City in 1914. The image's career as a national and political symbol runs alongside its devotional one and is part of what historians analyse in the 1895 coronation.",
+      "sources": [
+        "britannica-guadalupe",
+        "traslosheros-2002"
       ]
     },
     {
@@ -254,6 +374,17 @@
       ]
     },
     {
+      "year": 1921,
+      "date": "1921-11-14",
+      "dateVerified": true,
+      "place": "Old Basilica of Guadalupe, Mexico City",
+      "title": "A bomb explodes at the altar; the image is reported undamaged",
+      "text": "Shortly after 10 a.m. a device concealed in flowers exploded at the altar of the old basilica, wrecking the altar's marble base, toppling candelabra, shattering glass and bending a bronze crucifix. The explosion is documented. That the image and even its protective glass were left intact is what contemporaries reported and what El Universal reported the following day, 15 November 1921; devotional accounts have read the crucifix — kept at the basilica as the 'Cristo del Atentado' — as having shielded it. This dataset records the explosion as an event and the intactness of the image as a report, attributed to those who made it.",
+      "sources": [
+        "eluniversal-1921"
+      ]
+    },
+    {
       "year": 1939,
       "date": "1939",
       "dateVerified": false,
@@ -263,6 +394,30 @@
       "text": "According to Stafford Poole, the process that would lead to Juan Diego's beatification began in 1939. From the outset the cause was entangled with the historicity question, since the candidate's existence rests on the same contested documentary record as the apparitions.",
       "sources": [
         "poole-2005"
+      ]
+    },
+    {
+      "year": 1976,
+      "date": "1976-10-12",
+      "dateVerified": true,
+      "place": "Tepeyac, Mexico City",
+      "title": "The new basilica is opened and the image transferred",
+      "text": "The new Basilica of Santa María de Guadalupe, built from 1974 to designs by Pedro Ramírez Vázquez, José Luis Benlliure, Alejandro Schoenhofer, Fray Gabriel Chávez de la Mora and Javier García Lascuráin, received the image in solemn procession on 12 October 1976; the eighteenth-century building it replaced had become structurally unsafe as the ground beneath it subsided. The circular plan seats about ten thousand.",
+      "sources": [
+        "cdmx-nueva-basilica",
+        "desdelafe-antigua-basilica"
+      ]
+    },
+    {
+      "year": 1981,
+      "date": "1981",
+      "dateVerified": true,
+      "place": "Washington, D.C. / Mexico City",
+      "title": "Claims about the tilma and the image are published by named researchers",
+      "text": "The biophysicist Philip Serna Callahan published The Tilma under Infra-Red Radiation as monograph no. 3 of the CARA Studies on Popular Devotion (Georgetown University, 1981), reporting infrared photography of the cloth and arguing that parts of the image show no underdrawing or sizing. Separately, the engineer José Aste Tönsmann (1931–2024) worked on digitised enlargements of the image's eyes from 1979 and asserted that thirteen human figures are reflected in them. Both are CLAIMS by named individuals, dated and attributed here — neither was published in a peer-reviewed scientific journal, both are rejected by critics as over-reading, and this dataset takes no position on either. No Church act recorded in this chronology rules on the origin or composition of the image.",
+      "sources": [
+        "cara-callahan-1981",
+        "aciprensa-aste-2024"
       ]
     },
     {
@@ -305,17 +460,6 @@
     },
     {
       "year": 1999,
-      "date": "1999-01-22",
-      "dateVerified": true,
-      "place": "Mexico City",
-      "title": "Ecclesia in America: the feast extended to the whole continent",
-      "text": "In the post-synodal exhortation Ecclesia in America, signed at the Guadalupe basilica, John Paul II endorsed the celebration of Our Lady of Guadalupe, 'Mother and Evangelizer of America', throughout the continent on 12 December, invoking her as Patroness of all America.",
-      "sources": [
-        "ecclesia-1999"
-      ]
-    },
-    {
-      "year": 1999,
       "date": "1999",
       "dateVerified": true,
       "dateNote": "The year of publication is verified (El Universal, 22 January 2002); the day sometimes given, 24 August 1999, is not verified here.",
@@ -326,6 +470,28 @@
         "eluniversal-2002",
         "lor-2002",
         "poole-2005"
+      ]
+    },
+    {
+      "year": 1999,
+      "date": "1999-01-22",
+      "dateVerified": true,
+      "place": "Mexico City",
+      "title": "Ecclesia in America: the feast extended to the whole continent",
+      "text": "In the post-synodal exhortation Ecclesia in America, signed at the Guadalupe basilica, John Paul II endorsed the celebration of Our Lady of Guadalupe, 'Mother and Evangelizer of America', throughout the continent on 12 December, invoking her as Patroness of all America.",
+      "sources": [
+        "ecclesia-1999"
+      ]
+    },
+    {
+      "year": 2001,
+      "date": "2001-12-20",
+      "dateVerified": true,
+      "place": "Rome",
+      "title": "The Holy See promulgates a decree on a miracle attributed to Blessed Juan Diego",
+      "text": "The Holy See bulletin of 20 December 2001 lists among the decrees promulgated that day one recognising 'un miracolo, attribuito all'intercessione del Beato Juan Diego Cuauhtlatoatzin' — the act that cleared the way for the canonization seven months later. This is the recognition act, and it is the datable thing: a Church judgment with a document and a date. The healing it concerns is reported in the press as that of Juan José Barragán Silva in Mexico City in May 1990; the bulletin itself names no beneficiary, and this dataset does not assert the cure. A decree of this kind judges a claimed intercession in a canonization cause; it is not a ruling on the apparitions of 1531.",
+      "sources": [
+        "vatican-decreti-2001"
       ]
     },
     {
@@ -341,6 +507,18 @@
         "poole-2005",
         "lor-2002",
         "eluniversal-2002"
+      ]
+    },
+    {
+      "year": 2025,
+      "date": "2025-12-12",
+      "dateVerified": true,
+      "place": "Tepeyac, Mexico City",
+      "title": "Pilgrimage counts for the 12 December feast, as published by the counting authorities",
+      "text": "For the feast of 2025 the Mexico City government's Secretaría de Gobierno reported, through its Operativo Basílica, close to 13 million people at the Villa de Guadalupe over 11–12 December, which it called a record against about 12.5 million for 2024. The figure is the city government's crowd estimate and is attributed to it here; the Archdiocese of Mexico republished it rather than issuing its own. The city's tourism office separately publishes an annual figure of roughly 30 million religious and 10 million other visitors, without stating a method. The counts are not reconciled here because their counters do not reconcile them.",
+      "sources": [
+        "desdelafe-2025-peregrinos",
+        "cdmx-nueva-basilica"
       ]
     }
   ],
@@ -530,6 +708,15 @@
           "wikipedia-schulenburg",
           "lor-2002"
         ]
+      },
+      {
+        "title": "A reported cure ≠ a recognized miracle",
+        "text": "Two different things are dated in this chronology. One is an ACCOUNT — that a cure or a wonder was reported, by whom, and when the report is first attested; Bernal Díaz in the 1560s and the Nican Motecpana of 1649 are accounts. The other is a RECOGNITION ACT — a dated judgment of the Church with a document behind it, such as the decree of 20 December 2001 on a miracle attributed to Blessed Juan Diego's intercession. An account is not evidence that anything happened, and a recognition act in a canonization cause is not a ruling on the apparitions of 1531. Where a claimed cure carries neither a named reporter nor a Church act, it is not in this dataset at all.",
+        "sources": [
+          "bernal-1632",
+          "huei-1649",
+          "vatican-decreti-2001"
+        ]
       }
     ]
   },
@@ -709,6 +896,102 @@
       "publisher": "Dicastery for the Doctrine of the Faith, Holy See",
       "publisherNote": "The Church's current procedure for judging reported apparitions, in force since 19 May 2024; its art. 27 entirely replaces the norms of 25 February 1978, and its art. 23 states that as a rule no authority will now declare such phenomena supernatural. Cited here only to date the procedure — it is not applied retroactively to 1531.",
       "type": "official"
+    },
+    {
+      "id": "britannica-tenochtitlan",
+      "title": "Battle of Tenochtitlán",
+      "url": "https://www.britannica.com/event/Battle-of-Tenochtitlan",
+      "publisher": "Encyclopaedia Britannica",
+      "publisherNote": "General reference for the siege and fall of the Mexica capital in 1521 — cited here only to date the political setting of the following decade.",
+      "type": "encyclopedia"
+    },
+    {
+      "id": "omp-doce-2024",
+      "title": "500 años de la llegada de los doce apóstoles de México",
+      "url": "https://omp.es/ompress/500-anos-de-la-llegada-de-los-doce-apostoles-de-mexico/",
+      "publisher": "Obras Misionales Pontificias (OMPress), Madrid",
+      "publisherNote": "The pontifical mission agency's own news service — a Catholic institutional source, used for the date the first twelve Franciscans landed and for how the Church itself narrates that mission.",
+      "type": "official"
+    },
+    {
+      "id": "franciscanos-zumarraga",
+      "title": "Fray Juan de Zumárraga (Enciclopedia franciscana)",
+      "url": "https://www.franciscanos.org/enciclopedia/jzumaraga.html",
+      "publisher": "Franciscanos.org — Enciclopedia franciscana",
+      "publisherNote": "In-house reference work of Zumárraga's own religious family — sympathetic by nature, used here for the dates of his nomination, arrival, consecration and death, which it gives with document dates.",
+      "type": "encyclopedia"
+    },
+    {
+      "id": "bernal-1632",
+      "title": "Historia verdadera de la conquista de la Nueva España (Madrid: Imprenta del Reino, 1632) — digitized first edition",
+      "url": "https://archive.org/details/A048263060",
+      "publisher": "Bernal Díaz del Castillo / Internet Archive",
+      "publisherNote": "Digitization of the 1632 first printing of a conquistador's memoir completed in the 1560s. A primary sixteenth-century witness to the Tepeyac chapel and to miracles reported there — and to the fact that he names no visionary and no apparition.",
+      "type": "archive"
+    },
+    {
+      "id": "desdelafe-antigua-basilica",
+      "title": "La antigua Basílica de Guadalupe: el templo que fue casa de la Virgen por 267 años",
+      "url": "https://desdelafe.mx/noticias/cultura/templo-expiatorio-cristo-rey-antigua-basilica-guadalupe/",
+      "publisher": "Desde la Fe, Arquidiócesis de México",
+      "publisherNote": "The Archdiocese of Mexico's own magazine — a devotional and institutional source, cited here for the construction and dedication dates of the successive shrines, which it gives precisely.",
+      "type": "official"
+    },
+    {
+      "id": "unam-matlazahuatl",
+      "title": "Remedios contra el matlazáhuatl de 1737",
+      "url": "https://historicas.unam.mx/comunicacion-publica/proyectos-especiales/remedios-contra-matlazahuatl",
+      "publisher": "Instituto de Investigaciones Históricas, UNAM",
+      "publisherNote": "University research institute presenting the epidemic through a contemporary diary (Ignacio Rodríguez Navarijo's) — it dates the swearing of the patronage from that diary and contrasts the diarist's one-line entry with Cabrera y Quintero's miracle-centred account of 1746.",
+      "type": "academic"
+    },
+    {
+      "id": "eluniversal-1921",
+      "title": "El atentado hacia la Virgen de Guadalupe que desató la ira de fieles hace 100 años",
+      "url": "https://www.eluniversal.com.mx/cultura/el-atentado-hacia-la-virgen-de-guadalupe-de-hace-100-anos/",
+      "publisher": "El Universal",
+      "publisherNote": "Mexican daily, centenary feature built on its own reporting of 15 November 1921 — used for the dated facts of the explosion and for what contemporaries reported about the state of the image afterwards.",
+      "type": "news"
+    },
+    {
+      "id": "cdmx-nueva-basilica",
+      "title": "New Basilica of Santa María de Guadalupe",
+      "url": "https://mexicocity.cdmx.gob.mx/venues/new-basilica-santa-maria-de-guadalupe/?lang=en",
+      "publisher": "Gobierno de la Ciudad de México",
+      "publisherNote": "Official tourism page of the Mexico City government — used for the 1974–1976 construction and the 12 October 1976 transfer of the image, and as one of the bodies that publishes annual visitor estimates (which it gives without stating a method).",
+      "type": "official"
+    },
+    {
+      "id": "cara-callahan-1981",
+      "title": "The Tilma under Infra-Red Radiation (CARA Studies on Popular Devotion, vol. II: Guadalupan Studies, monograph no. 3, 1981)",
+      "url": "https://cara.georgetown.edu/store/p/the-tilma-under-infra-red-radiation",
+      "publisher": "Philip Serna Callahan / Center for Applied Research in the Apostolate, Georgetown University",
+      "publisherNote": "Catalogue record of the monograph itself, at its publisher — cited to date and attribute the claim, not to endorse it. CARA is a Catholic research centre; the study was not peer-reviewed in a scientific journal and this dataset records it as an assertion by a named researcher.",
+      "type": "academic"
+    },
+    {
+      "id": "aciprensa-aste-2024",
+      "title": "Muere José Aste Tonsmann, investigador que descubrió 13 imágenes en los ojos de la Virgen de Guadalupe",
+      "url": "https://www.aciprensa.com/noticias/108805/virgen-de-guadalupe-muere-jose-aste-tonsmann-investigador-que-descubrio-13-imagenes-en-sus-ojos",
+      "publisher": "ACI Prensa",
+      "publisherNote": "Catholic news agency — sympathetic to the claim, and cited as such: it is used to date and attribute Aste Tönsmann's assertions about the eyes of the image and to give his life dates, not as evidence that the assertions are correct.",
+      "type": "news"
+    },
+    {
+      "id": "vatican-decreti-2001",
+      "title": "Promulgazione di Decreti della Congregazione delle Cause dei Santi, 20 dicembre 2001",
+      "url": "https://press.vatican.va/content/salastampa/it/bollettino/pubblico/2001/12/20/0693/02105.html",
+      "publisher": "Holy See Press Office — Bollettino",
+      "publisherNote": "Primary document: the Holy See bulletin listing the decrees promulgated that day, including the one on a miracle attributed to the intercession of Blessed Juan Diego. The Church act itself, dated.",
+      "type": "official"
+    },
+    {
+      "id": "desdelafe-2025-peregrinos",
+      "title": "Basílica de Guadalupe rompe récord: 13 millones de peregrinos celebran a la Morenita en el Tepeyac",
+      "url": "https://desdelafe.mx/noticias/arquidiocesis-de-mexico/basilica-de-guadalupe-rompe-record-13-millones-de-peregrinos/",
+      "publisher": "Desde la Fe, Arquidiócesis de México",
+      "publisherNote": "The Archdiocese's magazine reporting the count published by the Mexico City government's Operativo Basílica — the figure is the city government's, and this dataset attributes it there rather than to the shrine or to the Archdiocese.",
+      "type": "news"
     }
   ]
 }
