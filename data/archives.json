@@ -1,0 +1,174 @@
+{
+  "generatedBy": "scripts/archive-refs.js",
+  "updatedAt": "2026-08-10",
+  "snapshots": {
+    "https://archivo.eluniversal.com.mx/nacion/77246.html": {
+      "refId": "eluniversal-2002",
+      "archiveUrl": "https://web.archive.org/web/20260810080521/https://archivo.eluniversal.com.mx/nacion/77246.html",
+      "timestamp": "20260810080521",
+      "checkedAt": "2026-08-10"
+    },
+    "https://blogs.depaul.edu/dmm/2020/11/03/in-memoriam-rev-stafford-poole-c-m/": {
+      "refId": "poole-obit-2020",
+      "archiveUrl": "https://web.archive.org/web/20250621090316/https://blogs.depaul.edu/dmm/2020/11/03/in-memoriam-rev-stafford-poole-c-m/",
+      "timestamp": "20250621090316",
+      "checkedAt": "2026-08-10"
+    },
+    "https://cara.georgetown.edu/store/p/the-tilma-under-infra-red-radiation": {
+      "refId": "cara-callahan-1981",
+      "archiveUrl": "https://web.archive.org/web/20250902181239/https://cara.georgetown.edu/store/p/the-tilma-under-infra-red-radiation",
+      "timestamp": "20250902181239",
+      "checkedAt": "2026-08-10"
+    },
+    "https://desdelafe.mx/noticias/arquidiocesis-de-mexico/basilica-de-guadalupe-rompe-record-13-millones-de-peregrinos/": {
+      "refId": "desdelafe-2025-peregrinos",
+      "archiveUrl": "https://web.archive.org/web/20260120233615/https://desdelafe.mx/noticias/arquidiocesis-de-mexico/basilica-de-guadalupe-rompe-record-13-millones-de-peregrinos/",
+      "timestamp": "20260120233615",
+      "checkedAt": "2026-08-10"
+    },
+    "https://desdelafe.mx/noticias/cultura/templo-expiatorio-cristo-rey-antigua-basilica-guadalupe/": {
+      "refId": "desdelafe-antigua-basilica",
+      "archiveUrl": "https://web.archive.org/web/20260512010540/https://desdelafe.mx/noticias/cultura/templo-expiatorio-cristo-rey-antigua-basilica-guadalupe/",
+      "timestamp": "20260512010540",
+      "checkedAt": "2026-08-10"
+    },
+    "https://en.wikipedia.org/wiki/Codex_Escalada": {
+      "refId": "wikipedia-codex-escalada",
+      "archiveUrl": "https://web.archive.org/web/20260714224221/https://en.wikipedia.org/wiki/Codex_Escalada",
+      "timestamp": "20260714224221",
+      "checkedAt": "2026-08-10"
+    },
+    "https://en.wikipedia.org/wiki/Guillermo_Schulenburg": {
+      "refId": "wikipedia-schulenburg",
+      "archiveUrl": "https://web.archive.org/web/20260312051529/https://en.wikipedia.org/wiki/Guillermo_Schulenburg",
+      "timestamp": "20260312051529",
+      "checkedAt": "2026-08-10"
+    },
+    "https://guadalupe.upaep.mx/capsulas/1548.html": {
+      "refId": "upaep-1548",
+      "archiveUrl": "https://web.archive.org/web/20260810080439/https://guadalupe.upaep.mx/capsulas/1548.html",
+      "timestamp": "20260810080439",
+      "checkedAt": "2026-08-10"
+    },
+    "https://historicas.unam.mx/publicaciones/publicadigital/libros/222c/222c_04_02_03_CapituloTercero.pdf": {
+      "refId": "ogorman-1986",
+      "archiveUrl": "https://web.archive.org/web/20230125041120/https://historicas.unam.mx/publicaciones/publicadigital/libros/222c/222c_04_02_03_CapituloTercero.pdf",
+      "timestamp": "20230125041120",
+      "checkedAt": "2026-08-10"
+    },
+    "https://pages.ucsd.edu/~dkjordan/nahuatl/nican/NicanMopohua.html": {
+      "refId": "nican-ucsd",
+      "archiveUrl": "https://web.archive.org/web/20260715112452/https://pages.ucsd.edu/~dkjordan/nahuatl/nican/NicanMopohua.html",
+      "timestamp": "20260715112452",
+      "checkedAt": "2026-08-10"
+    },
+    "https://press.vatican.va/content/salastampa/it/bollettino/pubblico/2001/12/20/0693/02105.html": {
+      "refId": "vatican-decreti-2001",
+      "archiveUrl": "https://web.archive.org/web/20250121231224/https://press.vatican.va/content/salastampa/it/bollettino/pubblico/2001/12/20/0693/02105.html",
+      "timestamp": "20250121231224",
+      "checkedAt": "2026-08-10"
+    },
+    "https://secularhumanism.org/2003/03/juan-diego/": {
+      "refId": "mendez-acosta-2003",
+      "archiveUrl": "https://web.archive.org/web/20210207041440/https://secularhumanism.org/2003/03/juan-diego/",
+      "timestamp": "20210207041440",
+      "checkedAt": "2026-08-10"
+    },
+    "https://signoshistoricos.izt.uam.mx/index.php/historicos/article/view/89": {
+      "refId": "traslosheros-2002",
+      "archiveUrl": "https://web.archive.org/web/20260606081650/https://signoshistoricos.izt.uam.mx/index.php/historicos/article/view/89",
+      "timestamp": "20260606081650",
+      "checkedAt": "2026-08-10"
+    },
+    "https://www.aciprensa.com/noticias/108805/virgen-de-guadalupe-muere-jose-aste-tonsmann-investigador-que-descubrio-13-imagenes-en-sus-ojos": {
+      "refId": "aciprensa-aste-2024",
+      "archiveUrl": "https://web.archive.org/web/20260104181026/https://www.aciprensa.com/noticias/108805/virgen-de-guadalupe-muere-jose-aste-tonsmann-investigador-que-descubrio-13-imagenes-en-sus-ojos",
+      "timestamp": "20260104181026",
+      "checkedAt": "2026-08-10"
+    },
+    "https://www.britannica.com/biography/St-Juan-Diego": {
+      "refId": "britannica-juan-diego",
+      "archiveUrl": "https://web.archive.org/web/20260311145218/https://www.britannica.com/biography/St-Juan-Diego",
+      "timestamp": "20260311145218",
+      "checkedAt": "2026-08-10"
+    },
+    "https://www.britannica.com/event/Battle-of-Tenochtitlan": {
+      "refId": "britannica-tenochtitlan",
+      "archiveUrl": "https://web.archive.org/web/20260307202338/https://www.britannica.com/event/Battle-of-Tenochtitlan",
+      "timestamp": "20260307202338",
+      "checkedAt": "2026-08-10"
+    },
+    "https://www.britannica.com/topic/Our-Lady-of-Guadalupe-patron-saint-of-Mexico": {
+      "refId": "britannica-guadalupe",
+      "archiveUrl": "https://web.archive.org/web/20260805215940/https://www.britannica.com/topic/Our-Lady-of-Guadalupe-patron-saint-of-Mexico",
+      "timestamp": "20260805215940",
+      "checkedAt": "2026-08-10"
+    },
+    "https://www.cambridge.org/core/journals/americas/article/abs/history-versus-juan-diego/85D240A9B39138EED5EC6D916E64C81A": {
+      "refId": "poole-2005",
+      "archiveUrl": "https://web.archive.org/web/20250812065528/https://www.cambridge.org/core/journals/americas/article/abs/history-versus-juan-diego/85D240A9B39138EED5EC6D916E64C81A",
+      "timestamp": "20250812065528",
+      "checkedAt": "2026-08-10"
+    },
+    "https://www.eluniversal.com.mx/cultura/el-atentado-hacia-la-virgen-de-guadalupe-de-hace-100-anos/": {
+      "refId": "eluniversal-1921",
+      "archiveUrl": "https://web.archive.org/web/20220707162456/https://www.eluniversal.com.mx/cultura/el-atentado-hacia-la-virgen-de-guadalupe-de-hace-100-anos",
+      "timestamp": "20220707162456",
+      "checkedAt": "2026-08-10"
+    },
+    "https://www.ewtn.com/catholicism/library/our-lady-of-guadalupe-historical-sources-5605": {
+      "refId": "lor-2002",
+      "archiveUrl": "https://web.archive.org/web/20260808203701/https://www.ewtn.com/catholicism/library/our-lady-of-guadalupe-historical-sources-5605",
+      "timestamp": "20260808203701",
+      "checkedAt": "2026-08-10"
+    },
+    "https://www.franciscanos.org/enciclopedia/jzumaraga.html": {
+      "refId": "franciscanos-zumarraga",
+      "archiveUrl": "https://web.archive.org/web/20260514012605/https://www.franciscanos.org/enciclopedia/jzumaraga.html",
+      "timestamp": "20260514012605",
+      "checkedAt": "2026-08-10"
+    },
+    "https://www.newadvent.org/cathen/07043a.htm": {
+      "refId": "catholic-enc-1910",
+      "archiveUrl": "https://web.archive.org/web/20260725182031/https://www.newadvent.org/cathen/07043a.htm",
+      "timestamp": "20260725182031",
+      "checkedAt": "2026-08-10"
+    },
+    "https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S0185-25232018000200071": {
+      "refId": "hurtado-2018",
+      "archiveUrl": "https://web.archive.org/web/20250815122455/https://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S0185-25232018000200071",
+      "timestamp": "20250815122455",
+      "checkedAt": "2026-08-10"
+    },
+    "https://www.vatican.va/content/john-paul-ii/en/apost_exhortations/documents/hf_jp-ii_exh_22011999_ecclesia-in-america.html": {
+      "refId": "ecclesia-1999",
+      "archiveUrl": "https://web.archive.org/web/20260806183929/https://www.vatican.va/content/john-paul-ii/en/apost_exhortations/documents/hf_jp-ii_exh_22011999_ecclesia-in-america.html",
+      "timestamp": "20260806183929",
+      "checkedAt": "2026-08-10"
+    },
+    "https://www.vatican.va/content/john-paul-ii/en/homilies/2002/documents/hf_jp-ii_hom_20020731_canonization-mexico.html": {
+      "refId": "jp2-hom-2002",
+      "archiveUrl": "https://web.archive.org/web/20260514044739/https://www.vatican.va/content/john-paul-ii/en/homilies/2002/documents/hf_jp-ii_hom_20020731_canonization-mexico.html",
+      "timestamp": "20260514044739",
+      "checkedAt": "2026-08-10"
+    },
+    "https://www.vatican.va/content/john-paul-ii/es/homilies/1990/documents/hf_jp-ii_hom_19900506_citta-del-messico.html": {
+      "refId": "jp2-hom-1990",
+      "archiveUrl": "https://web.archive.org/web/20260316150136/https://www.vatican.va/content/john-paul-ii/es/homilies/1990/documents/hf_jp-ii_hom_19900506_citta-del-messico.html",
+      "timestamp": "20260316150136",
+      "checkedAt": "2026-08-10"
+    },
+    "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_20020731_juan-diego_en.html": {
+      "refId": "vatican-bio-2002",
+      "archiveUrl": "https://web.archive.org/web/20260221231342/https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_20020731_juan-diego_en.html",
+      "timestamp": "20260221231342",
+      "checkedAt": "2026-08-10"
+    },
+    "https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20240517_norme-fenomeni-soprannaturali_en.html": {
+      "refId": "ddf-norms-2024",
+      "archiveUrl": "https://web.archive.org/web/20260724130748/https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20240517_norme-fenomeni-soprannaturali_en.html",
+      "timestamp": "20260724130748",
+      "checkedAt": "2026-08-10"
+    }
+  }
+}
