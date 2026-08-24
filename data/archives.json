@@ -1,6 +1,6 @@
 {
   "generatedBy": "scripts/archive-refs.js",
-  "updatedAt": "2026-08-17",
+  "updatedAt": "2026-08-24",
   "snapshots": {
     "https://archivo.eluniversal.com.mx/nacion/77246.html": {
       "refId": "eluniversal-2002",
@@ -49,6 +49,12 @@
       "archiveUrl": "https://web.archive.org/web/20260810080439/https://guadalupe.upaep.mx/capsulas/1548.html",
       "timestamp": "20260810080439",
       "checkedAt": "2026-08-10"
+    },
+    "https://historicas.unam.mx/comunicacion-publica/proyectos-especiales/remedios-contra-matlazahuatl": {
+      "refId": "unam-matlazahuatl",
+      "archiveUrl": "https://web.archive.org/web/20260123110606/https://historicas.unam.mx/comunicacion-publica/proyectos-especiales/remedios-contra-matlazahuatl",
+      "timestamp": "20260123110606",
+      "checkedAt": "2026-08-24"
     },
     "https://historicas.unam.mx/publicaciones/publicadigital/libros/222c/222c_04_02_03_CapituloTercero.pdf": {
       "refId": "ogorman-1986",
