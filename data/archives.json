@@ -1,6 +1,6 @@
 {
   "generatedBy": "scripts/archive-refs.js",
-  "updatedAt": "2026-08-24",
+  "updatedAt": "2026-08-31",
   "snapshots": {
     "https://archivo.eluniversal.com.mx/nacion/77246.html": {
       "refId": "eluniversal-2002",
@@ -61,6 +61,12 @@
       "archiveUrl": "https://web.archive.org/web/20230125041120/https://historicas.unam.mx/publicaciones/publicadigital/libros/222c/222c_04_02_03_CapituloTercero.pdf",
       "timestamp": "20230125041120",
       "checkedAt": "2026-08-10"
+    },
+    "https://mexicocity.cdmx.gob.mx/venues/new-basilica-santa-maria-de-guadalupe/?lang=en": {
+      "refId": "cdmx-nueva-basilica",
+      "archiveUrl": "https://web.archive.org/web/20260824072039/https://mexicocity.cdmx.gob.mx/venues/new-basilica-santa-maria-de-guadalupe/?lang=en",
+      "timestamp": "20260824072039",
+      "checkedAt": "2026-08-31"
     },
     "https://pages.ucsd.edu/~dkjordan/nahuatl/nican/NicanMopohua.html": {
       "refId": "nican-ucsd",
